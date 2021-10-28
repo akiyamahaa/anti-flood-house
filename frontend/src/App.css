@@ -1,0 +1,40 @@
+.App {
+}
+
+.btn-container {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.text-container {
+  width: 200px;
+}
+
+.btn-style {
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.header-container {
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #6dd5fa,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 20px;
+  font-size: 32px;
+}
